@@ -11,5 +11,4 @@ COPY . /app
 
 RUN chmod +x /app/.github/scripts/entrypoint.sh
 
-# Run entrypoint.sh when the container starts
 ENTRYPOINT ["/app/.github/scripts/entrypoint.sh"]
